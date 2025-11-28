@@ -4,18 +4,18 @@ uvicorn[standard]==0.27.0
 pydantic==2.6.0
 python-multipart==0.0.9
 
-# Authentication (simplified - no cryptography extras)
+# Authentication
 python-jose==3.3.0
 passlib==1.7.4
 bcrypt==4.1.2
 
-# ML & NLP
+# ML & NLP (Updated for Python 3.13 compatibility)
 transformers==4.37.2
 torch>=2.0.0
-scikit-learn==1.4.0
-pandas==2.2.0
-numpy==1.26.3
-joblib==1.3.2
+scikit-learn>=1.4.0
+pandas>=2.2.0
+numpy>=1.26.0
+joblib>=1.3.0
 
 # HTTP
 requests==2.31.0
