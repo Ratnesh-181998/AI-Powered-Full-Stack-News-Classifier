@@ -56,6 +56,7 @@ class PredictionResponse(BaseModel):
     category: str
     confidence: float
     model_used: str
+    model_config = {'protected_namespaces': ()}
 
 # --- Mock Database / Services ---
 fake_users_db = {
@@ -88,10 +89,15 @@ import os
 import re
 import string
 
-# Load BERT model at startup
-print("Loading BERT model...")
-classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
-print("BERT model loaded!")
+# Load Smaller BERT model (DistilRoberta) to fit in Render Free Tier (512MB RAM)
+print("Loading AI model...")
+try:
+    # Using a much smaller model (~300MB) instead of BART-large (~1.6GB)
+    classifier = pipeline("zero-shot-classification", model="cross-encoder/nli-distilroberta-base")
+    print("AI model loaded successfully!")
+except Exception as e:
+    print(f"Error loading model: {e}")
+    classifier = None
 
 # Load custom trained model
 CUSTOM_MODEL_PATH = os.path.join(os.path.dirname(__file__), "custom_model.joblib")
