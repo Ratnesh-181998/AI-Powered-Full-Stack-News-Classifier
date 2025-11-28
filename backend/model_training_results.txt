@@ -1,0 +1,136 @@
+================================================================================
+MODEL TRAINING & EVALUATION REPORT
+Generated: 2025-11-28 19:52:38
+================================================================================
+
+📊 Dataset: C:\Users\rattu\Downloads\NLP_ Word Embedding - Word2Vec\FlipItNews_Advanced\backend\flipitnews-data.csv
+Total samples: 2225
+Categories: ['Technology', 'Business', 'Sports', 'Entertainment', 'Politics']
+Category distribution:
+Category
+Sports           511
+Business         510
+Politics         417
+Technology       401
+Entertainment    386
+Name: count, dtype: int64
+
+Train samples: 1780
+Test samples: 445
+
+================================================================================
+
+================================================================================
+MODEL: Logistic Regression
+================================================================================
+
+🏆 Accuracy: 0.9888 (98.88%)
+
+📊 Classification Report:
+               precision    recall  f1-score   support
+
+     Business       0.97      0.99      0.98       102
+Entertainment       0.99      1.00      0.99        77
+     Politics       0.99      0.99      0.99        84
+       Sports       1.00      1.00      1.00       102
+   Technology       1.00      0.96      0.98        80
+
+     accuracy                           0.99       445
+    macro avg       0.99      0.99      0.99       445
+ weighted avg       0.99      0.99      0.99       445
+
+
+🔢 Confusion Matrix:
+[[101   0   1   0   0]
+ [  0  77   0   0   0]
+ [  0   1  83   0   0]
+ [  0   0   0 102   0]
+ [  3   0   0   0  77]]
+
+================================================================================
+MODEL: Naive Bayes
+================================================================================
+
+🏆 Accuracy: 0.9843 (98.43%)
+
+📊 Classification Report:
+               precision    recall  f1-score   support
+
+     Business       0.98      0.96      0.97       102
+Entertainment       0.99      0.99      0.99        77
+     Politics       0.97      0.99      0.98        84
+       Sports       1.00      1.00      1.00       102
+   Technology       0.99      0.99      0.99        80
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+🔢 Confusion Matrix:
+[[ 98   1   2   0   1]
+ [  0  76   1   0   0]
+ [  1   0  83   0   0]
+ [  0   0   0 102   0]
+ [  1   0   0   0  79]]
+
+================================================================================
+MODEL: Random Forest
+================================================================================
+
+🏆 Accuracy: 0.9640 (96.40%)
+
+📊 Classification Report:
+               precision    recall  f1-score   support
+
+     Business       0.96      0.93      0.95       102
+Entertainment       0.99      0.99      0.99        77
+     Politics       0.95      0.93      0.94        84
+       Sports       0.97      1.00      0.99       102
+   Technology       0.95      0.97      0.96        80
+
+     accuracy                           0.96       445
+    macro avg       0.96      0.96      0.96       445
+ weighted avg       0.96      0.96      0.96       445
+
+
+🔢 Confusion Matrix:
+[[ 95   0   4   1   2]
+ [  1  76   0   0   0]
+ [  2   0  78   2   2]
+ [  0   0   0 102   0]
+ [  1   1   0   0  78]]
+
+================================================================================
+MODEL: Linear SVM
+================================================================================
+
+🏆 Accuracy: 0.9888 (98.88%)
+
+📊 Classification Report:
+               precision    recall  f1-score   support
+
+     Business       0.98      0.99      0.99       102
+Entertainment       0.97      1.00      0.99        77
+     Politics       0.99      0.99      0.99        84
+       Sports       1.00      1.00      1.00       102
+   Technology       1.00      0.96      0.98        80
+
+     accuracy                           0.99       445
+    macro avg       0.99      0.99      0.99       445
+ weighted avg       0.99      0.99      0.99       445
+
+
+🔢 Confusion Matrix:
+[[101   0   1   0   0]
+ [  0  77   0   0   0]
+ [  0   1  83   0   0]
+ [  0   0   0 102   0]
+ [  2   1   0   0  77]]
+
+================================================================================
+BEST MODEL: Logistic Regression
+BEST ACCURACY: 0.9888 (98.88%)
+================================================================================
+
+💾 Best model saved to: C:\Users\rattu\Downloads\NLP_ Word Embedding - Word2Vec\FlipItNews_Advanced\backend\custom_model.joblib

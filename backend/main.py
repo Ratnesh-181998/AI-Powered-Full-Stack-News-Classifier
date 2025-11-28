@@ -90,9 +90,16 @@ import re
 import string
 
 # Load BERT model at startup (for local development)
+# Option 1: Full BART-large model (1.6GB) - Best accuracy (98%)
 print("Loading BERT model...")
 classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
 print("BERT model loaded!")
+
+# Option 2: Smaller mDeBERTa model (~600MB) - Good accuracy, less memory
+# Uncomment below and comment out Option 1 if you have memory constraints
+# print("Loading AI model...")
+# classifier = pipeline("zero-shot-classification", model="MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7")
+# print("AI model loaded!")
 
 # Load custom trained model
 CUSTOM_MODEL_PATH = os.path.join(os.path.dirname(__file__), "custom_model.joblib")
