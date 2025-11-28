@@ -9,6 +9,31 @@
 
 **FlipItNews Advanced** is a state-of-the-art news aggregation platform that leverages **Machine Learning (BERT & Custom Models)** to classify news articles in real-time and provide personalized recommendations. Built with a modern **React** frontend and a robust **FastAPI** backend, it bridges the gap between raw information and actionable insights.
 
+---
+
+## 🚀 Live Demo
+
+- **Frontend (Vercel)**: [Click here to view App](https://ai-powered-news-classifier.vercel.app)
+- **Backend API (Render)**: [View API Docs](https://ai-powered-full-stack-news-classifier.onrender.com/docs)
+- **Streamlit Prototype**: [View on Streamlit Cloud](https://share.streamlit.io/user/ratnesh-181998)
+
+---
+
+## 🏆 Model Performance
+
+We trained and evaluated 4 different models on the dataset. **Logistic Regression** achieved the best performance.
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|----------|-----------|--------|----------|
+| **Logistic Regression** | **98.88%** | **0.99** | **0.99** | **0.99** |
+| Linear SVM | 98.88% | 0.99 | 0.99 | 0.99 |
+| Naive Bayes | 98.43% | 0.98 | 0.98 | 0.98 |
+| Random Forest | 96.40% | 0.96 | 0.96 | 0.96 |
+
+> **Note:** For local development, the app also supports a full **1.6GB BERT Transformer model** for zero-shot classification.
+
+---
+
 The 4 different models I trained and tested are:
 
 🤖 Trained Models FliptNew_Data.CSV:
