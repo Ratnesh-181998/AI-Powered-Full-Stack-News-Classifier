@@ -89,11 +89,12 @@ import os
 import re
 import string
 
-# Load Smaller BERT model (DistilRoberta) to fit in Render Free Tier (512MB RAM)
+# Load Smaller zero-shot model to fit in Render Free Tier (512MB RAM)
 print("Loading AI model...")
 try:
-    # Using a much smaller model (~300MB) instead of BART-large (~1.6GB)
-    classifier = pipeline("zero-shot-classification", model="cross-encoder/nli-distilroberta-base")
+    # Using a smaller model (~600MB) instead of BART-large (~1.6GB)
+    # This model is specifically designed for zero-shot classification
+    classifier = pipeline("zero-shot-classification", model="MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7")
     print("AI model loaded successfully!")
 except Exception as e:
     print(f"Error loading model: {e}")
