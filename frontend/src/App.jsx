@@ -19,8 +19,8 @@ import CloseIcon from '@mui/icons-material/Close'
 import ShareIcon from '@mui/icons-material/Share'
 import axios from 'axios'
 
-// API Base URL
-const API_URL = 'http://localhost:8000'
+// API Base URL - uses environment variable in production, localhost in development
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
 function NotificationsPage() {
     const allNotifications = [
