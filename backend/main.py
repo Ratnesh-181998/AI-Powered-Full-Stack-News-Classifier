@@ -73,7 +73,8 @@ async def login_for_access_token(form_data: UserLogin):
             headers={"WWW-Authenticate": "Bearer"},
         )
     # In a real app, generate a JWT token here
-    return {"access_token": "fake-jwt-token", "token_type": "bearer"}
+    # For demo purposes, we return a static token to avoid complex dependencies
+    return {"access_token": "fake-jwt-token-for-demo", "token_type": "bearer"}
 
 # --- News & Prediction Endpoints ---
 @app.get("/")
