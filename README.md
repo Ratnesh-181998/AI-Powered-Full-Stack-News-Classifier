@@ -13,7 +13,7 @@
 
 ## 🚀 Live Demo
 
-- **Frontend (Vercel)**: [Click here to view App](https://ai-powered-news-classifier.vercel.app)
+- **Frontend (Vercel)**: [Click here to view App](https://ai-powered-full-stack-news-classifier-f9wigwcvg.vercel.app/)
 - **Backend API (Render)**: [View API Docs](https://ai-powered-full-stack-news-classifier.onrender.com/docs)
 - **Streamlit Prototype**: [View on Streamlit Cloud](https://share.streamlit.io/user/ratnesh-181998)
 
