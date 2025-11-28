@@ -4,11 +4,9 @@ uvicorn[standard]==0.27.0
 pydantic==2.6.0
 python-multipart==0.0.9
 
-# Authentication (Simplified to avoid compilation)
+# Authentication (Simplified - JWT only)
 python-jose==3.3.0
-passlib==1.7.4
-# bcrypt 4.0.1 has reliable pre-built wheels
-bcrypt==4.0.1
+# Removed passlib/bcrypt to fix Render build on Python 3.13
 
 # ML & NLP
 transformers==4.37.2
