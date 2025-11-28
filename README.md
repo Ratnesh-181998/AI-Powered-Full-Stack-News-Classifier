@@ -32,7 +32,12 @@
 <img width="2879" height="1725" alt="image" src="https://github.com/user-attachments/assets/f809500b-a9cd-4f9c-b570-ab42bd4369f5" />
 <img width="2877" height="1628" alt="image" src="https://github.com/user-attachments/assets/6853a294-4d50-48d7-ba23-0ccc7acaba8a" />
 
-##AI Prediction 
+## AI Prediction 
+Powered by advanced machine learning models trained on thousands of articles
+
+🧠 BERT MODEL (98% ACCURACY)
+⚡ CUSTOM MODEL (90% ACCURACY, FAST)
+
 <img width="2849" height="1696" alt="image" src="https://github.com/user-attachments/assets/3fabe8bd-cf54-4d5a-8226-c91e5d81d55c" />
 <img width="2869" height="1710" alt="image" src="https://github.com/user-attachments/assets/7db923a6-c102-48f9-b2c0-722c74c90c4f" />
 <img width="2879" height="1709" alt="image" src="https://github.com/user-attachments/assets/7d9ca285-bf67-41fe-98cd-026ac44aced9" />
@@ -93,16 +98,6 @@ A transparent view into the engineering behind the platform.
 
 <img width="1904" height="943" alt="image" src="https://github.com/user-attachments/assets/c6acabea-aa8b-4f59-a580-6d2f3f006589" />
 <img width="2761" height="1680" alt="image" src="https://github.com/user-attachments/assets/c9ba4f41-8bb5-4b49-a303-09e4e3c456ce" />
-
-```mermaid
-graph TD
-    A[User (React Frontend)] -->|HTTP Request| B[FastAPI Backend]
-    B -->|Text Input| C{AI Engine}
-    C -->|Complex Query| D[BERT Model]
-    C -->|Fast Query| E[Custom Model]
-    C -->|Result| B
-    B -->|JSON Response| A
-```
 
 ---
 
@@ -176,4 +171,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*© 2025 FlipItNews Advanced. All Rights Reserved.*
+*© 2025 Ratnesh All Rights Reserved.*
