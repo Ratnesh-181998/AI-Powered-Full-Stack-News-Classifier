@@ -18,7 +18,10 @@
 - **Streamlit Prototype**: [View on Streamlit Cloud](https://share.streamlit.io/user/ratnesh-181998)
 
 ---
-**Public URL  Vercel **: https://ai-powered-full-stack-news-classifier-p365zlb5a.vercel.app/
+
+**Public URL  Vercel**
+
+https://ai-powered-full-stack-news-classifier-p365zlb5a.vercel.app/
 
 ---
 
