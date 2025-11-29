@@ -152,8 +152,9 @@ This is a practical compromise to get your app deployed for free while maintaini
 <img width="2843" height="1717" alt="image" src="https://github.com/user-attachments/assets/6cd1dcb0-5114-4a7e-afb5-23138cde140c" />
 <img width="2878" height="1704" alt="image" src="https://github.com/user-attachments/assets/43269e5f-30e2-424f-bc1e-c55c93b9a7da" />
 <img width="2879" height="1697" alt="image" src="https://github.com/user-attachments/assets/aa9ff9f4-03cc-4c8b-a0ec-0c300cc54ccb" />
-<img width="2879" height="1725" alt="image" src="https://github.com/user-attachments/assets/f809500b-a9cd-4f9c-b570-ab42bd4369f5" />
-<img width="2877" height="1628" alt="image" src="https://github.com/user-attachments/assets/6853a294-4d50-48d7-ba23-0ccc7acaba8a" />
+<img width="2861" height="1433" alt="image" src="https://github.com/user-attachments/assets/4bb8be12-ce37-40fe-8859-c0fcd719cc71" />
+<img width="2864" height="1447" alt="image" src="https://github.com/user-attachments/assets/89f84d15-985b-45d8-985c-6ec36ba63409" />
+
 
 ## AI Prediction 
 Powered by advanced machine learning models trained on thousands of articles
@@ -161,13 +162,17 @@ Powered by advanced machine learning models trained on thousands of articles
 🧠 BERT MODEL (98% ACCURACY)
 ⚡ CUSTOM MODEL (90% ACCURACY, FAST)
 
-<img width="2849" height="1696" alt="image" src="https://github.com/user-attachments/assets/3fabe8bd-cf54-4d5a-8226-c91e5d81d55c" />
+<img width="2851" height="1435" alt="image" src="https://github.com/user-attachments/assets/4bc6dc64-beed-4e1a-89b0-a83fee2fcb86" />
+<img width="2843" height="1438" alt="image" src="https://github.com/user-attachments/assets/7e007454-f301-4549-9a8f-3c6bde97a697" />
 
-<img width="2869" height="1710" alt="image" src="https://github.com/user-attachments/assets/7db923a6-c102-48f9-b2c0-722c74c90c4f" />
+<img width="2863" height="1451" alt="image" src="https://github.com/user-attachments/assets/684d5091-cdac-4bff-bc4b-99e6d92adab9" />
+<img width="2824" height="1444" alt="image" src="https://github.com/user-attachments/assets/61d9b69b-f8c7-48a6-a4f1-8a858df729e6" />
 
-<img width="2879" height="1709" alt="image" src="https://github.com/user-attachments/assets/7d9ca285-bf67-41fe-98cd-026ac44aced9" />
+<img width="2825" height="1456" alt="image" src="https://github.com/user-attachments/assets/f6c3109e-3ac9-42f3-b4af-f264931901cf" />
+<img width="2851" height="1442" alt="image" src="https://github.com/user-attachments/assets/216fe89e-7c03-4e37-96a0-33d95500239f" />
 
-<img width="2864" height="1703" alt="image" src="https://github.com/user-attachments/assets/b4ff84ca-baad-4624-a10c-05f89e5fcd8b" />
+<img width="2793" height="1485" alt="image" src="https://github.com/user-attachments/assets/4935b5a3-ccee-4ec1-b1a5-03784af5b98c" />
+<img width="2855" height="1464" alt="image" src="https://github.com/user-attachments/assets/c2db51cf-4a5b-49ef-9806-541ba243343c" />
 
 ---
 
@@ -216,15 +221,16 @@ A transparent view into the engineering behind the platform.
 - **Cloud**: AWS (EC2, S3)
 - **Version Control**: Git, GitHub
 - 
-<img width="2879" height="1588" alt="image" src="https://github.com/user-attachments/assets/6cb004f2-0369-456d-a9ad-6f95e173379b" />
+<img width="2842" height="1477" alt="image" src="https://github.com/user-attachments/assets/b19f7d8f-6ecb-47de-a76f-5a4bf4000e8b" />
+
 
 ---
 
 ## 📊 Architecture Overview
 
-<img width="1904" height="943" alt="image" src="https://github.com/user-attachments/assets/c6acabea-aa8b-4f59-a580-6d2f3f006589" />
+<img width="2861" height="1430" alt="image" src="https://github.com/user-attachments/assets/5cc4e0cd-cabd-4104-bf08-091f13ec1a5d" />
 
-<img width="2761" height="1680" alt="image" src="https://github.com/user-attachments/assets/c9ba4f41-8bb5-4b49-a303-09e4e3c456ce" />
+<img width="1611" height="779" alt="image" src="https://github.com/user-attachments/assets/b2643594-614e-47a1-8592-462ef28c6e96" />
 
 ---
 
