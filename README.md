@@ -40,7 +40,7 @@ https://vercel.com/ratnesh-kumars-projects-ad9ae7f2/ai-powered-full-stack-news-c
 
 https://ai-powered-full-stack-news-classifier.onrender.com/docs
 
-https://dashboard.render.com/project/prj-d4kore8gjchc73aall0g)
+https://dashboard.render.com/project/prj-d4kore8gjchc73aall0g
 
 https://dashboard.render.com/web/srv-d4koreali9vc73dt0afg
 
