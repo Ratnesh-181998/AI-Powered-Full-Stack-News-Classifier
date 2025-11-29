@@ -162,8 +162,11 @@ Powered by advanced machine learning models trained on thousands of articles
 ⚡ CUSTOM MODEL (90% ACCURACY, FAST)
 
 <img width="2849" height="1696" alt="image" src="https://github.com/user-attachments/assets/3fabe8bd-cf54-4d5a-8226-c91e5d81d55c" />
+
 <img width="2869" height="1710" alt="image" src="https://github.com/user-attachments/assets/7db923a6-c102-48f9-b2c0-722c74c90c4f" />
+
 <img width="2879" height="1709" alt="image" src="https://github.com/user-attachments/assets/7d9ca285-bf67-41fe-98cd-026ac44aced9" />
+
 <img width="2864" height="1703" alt="image" src="https://github.com/user-attachments/assets/b4ff84ca-baad-4624-a10c-05f89e5fcd8b" />
 
 ---
@@ -220,6 +223,7 @@ A transparent view into the engineering behind the platform.
 ## 📊 Architecture Overview
 
 <img width="1904" height="943" alt="image" src="https://github.com/user-attachments/assets/c6acabea-aa8b-4f59-a580-6d2f3f006589" />
+
 <img width="2761" height="1680" alt="image" src="https://github.com/user-attachments/assets/c9ba4f41-8bb5-4b49-a303-09e4e3c456ce" />
 
 ---
